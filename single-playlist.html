@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- this single playlist page -->
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Playlist</title>
+    <link rel="shortcut icon" type="image/jpg" href="media/music-logo.jpg" />
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='single-playlist.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/bd869f837c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- bod is divided in 3 section -->
+    <!-- nav for navigator bar -->
+    <!-- main for main section which is divided in to two part by aside -->
+    <!-- footer section for footer of music-section -->
+
+    <!-- Navigator bar at the top of browser, this would be fix -->
+    <nav class="Navigator">
+        <div class="logo-Name">
+            <img src="media/music-logo.jpg">
+            <div class="company-name">
+                <h3>MusicTube</h3>
+                <h5>Listen EveryDay</h5>
+            </div>
+        </div>
+        <div class="favs">
+            <h4>
+                Favourites
+            </h4>
+        </div>
+
+
+        <div class="wrap">
+            <div class="search">
+
+                <img class="search-img-size pointer" src="media/mic-icon.png" alt="">
+                <input type="text" class="searchTerm" placeholder="Any song in mind?">
+
+                <button type="submit" class="searchButton">
+                    <i class="fas fa-search "></i>
+                    <!-- <img class="search-img-size pointer" src="media/search-icon.png" alt="search"> -->
+
+                </button>
+            </div>
+        </div>
+
+        <!-- this is notification-bell -->
+        <div class="notification-bell pointer">
+            <i class="far fa-bell fa-2x"></i>
+            <!-- <img src="media/notification-icon.jpeg" alt="Notification"> -->
+        </div>
+
+        <div class="profile-picture pointer">
+            <img src="media/profile_picture.jpeg">
+        </div>
+    </nav>
+
+
+    <main>
+        <!-- Left side of section -->
+        <div class="asidel">
+            <!-- this consist of big flex -->
+            <div class="playingsongs">
+                <div class="big-flex">
+                    <div class="big-img">
+                        <!-- <img src="media/playlistfirst/crop_175x175_1580913.jpg"> -->
+                        <img src="media/playlistfirst/lp.jpg">
+                    </div>
+                    <div class="song-info">
+
+                        <h4 style="text-align: end;"> 21M Followers </h4>
+
+                        <h1 style="margin-bottom: 5px;"><strong>Linkin Park</strong></h1>
+
+                        <p style="padding-bottom: 10px;">American Band</p>
+                        <p>Linkin Park is an American rock band from Agoura Hills, California.
+                            The band's current lineup comprises vocalist/rhythm guitarist
+                            Mike Shinoda, lead guitarist Brad Delson, bassist Dave Farrell,
+                            DJ/turntablist Joe Hahn and drummer Rob Bourdon, all of whom are
+                            founding members.</p>
+
+                        <div class="big-flex-button">
+                            <button class="playbutton"><span>Play All</span></button>
+                            <button class="followbtn"><span>Follow</span></button>
+                        </div>
+
+                        <p>200 tracks | 123 Albums </p>
+                    </div>
+
+                </div>
+
+                <!-- this contain all the song queue info -->
+                <div class="songs-queue">
+                    <div class="songinQ">
+                        <div class="song-info">
+                            <div class="srno" style="margin-right:2px;">
+                                01
+                            </div>
+                            <div class="playlist-info">
+                                <img src="media/single-playlist-playlist/e1.jpg">
+                                <div class="playlist-song-info">
+                                    <h5><strong>song 1</strong></h5>
+                                    <p>singer name</p>
+                                </div>
+                            </div>
+                            <div class="center">
+                                4:44
+                            </div>
+                            <!-- like and add to playlist button to right -->
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div>
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="song-info">
+                            <div class="srno" style="margin-right:2px;">
+                                02
+                            </div>
+                            <div class="playlist-info">
+                                <img src="media/single-playlist-playlist/e1.jpg">
+                                <div class="playlist-song-info">
+                                    <h5><strong>song 1</strong></h5>
+                                    <p>singer name</p>
+                                </div>
+                            </div>
+                            <div class="center">
+                                4:44
+                            </div>
+
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div>
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="song-info">
+                            <div class="srno" style="margin-right:2px;">
+                                03
+                            </div>
+                            <div class="playlist-info">
+                                <img src="media/single-playlist-playlist/e1.jpg">
+                                <div class="playlist-song-info">
+                                    <h5><strong>song 1</strong></h5>
+                                    <p>singer name</p>
+                                </div>
+                            </div>
+                            <div class="center">
+                                4:44
+                            </div>
+
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div>
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="song-info">
+                            <div class="srno" style="margin-right:2px;">
+                                04
+                            </div>
+                            <div class="playlist-info">
+                                <img src="media/single-playlist-playlist/e1.jpg">
+                                <div class="playlist-song-info">
+                                    <h5><strong>song 1</strong></h5>
+                                    <p>singer name</p>
+                                </div>
+                            </div>
+                            <div class="center">
+                                4:44
+                            </div>
+
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div>
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="song-info">
+                            <div class="srno" style="margin-right:2px;">
+                                05
+                            </div>
+                            <div class="playlist-info">
+                                <img src="media/single-playlist-playlist/e1.jpg">
+                                <div class="playlist-song-info">
+                                    <h5><strong>song 1</strong></h5>
+                                    <p>singer name</p>
+                                </div>
+                            </div>
+                            <div class="center">
+                                4:44
+                            </div>
+
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div>
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="song-info">
+                            <div class="srno" style="margin-right:2px;">
+                                06
+                            </div>
+                            <div class="playlist-info">
+                                <img src="media/single-playlist-playlist/e1.jpg">
+                                <div class="playlist-song-info">
+                                    <h5><strong>song 1</strong></h5>
+                                    <p>singer name</p>
+                                </div>
+                            </div>
+                            <div class="center">
+                                4:44
+                            </div>
+
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                                <div>
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+        <!-- Right side of Section -->
+        <div class="asider">
+            <div class="recomendation">
+                <div class="section-heading">
+                    <h1>Similar Artists</h1>
+                    <div class="view-all-button">
+                        View All
+                    </div>
+                </div>
+                <!-- this is similar-artist section -->
+                <div class="similar-artist">
+                    <div class="playlist-item">
+                        <div class=plitem-left>
+
+                            <div>
+                                <img src="media/Similar-Artist/AR-Rehman.jpg">
+                            </div>
+                            <div>
+                                <h4>
+                                    A R Rehman
+                                </h4>
+                                <p>
+                                    Indian singer
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="plitem-right">
+                            <div>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- this is play list sec -->
+                    <div class="playlist-item">
+                        <div class=plitem-left>
+
+                            <div>
+                                <img src="media/Similar-Artist/AR-Rehman.jpg">
+                            </div>
+                            <div>
+                                <h4>
+                                    A R Rehman
+                                </h4>
+                                <p>
+                                    Indian singer
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="plitem-right">
+                            <div>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="playlist-item">
+                        <div class=plitem-left>
+
+                            <div>
+                                <img src="media/Similar-Artist/AR-Rehman.jpg">
+                            </div>
+                            <div>
+                                <h4>
+                                    A R Rehman
+                                </h4>
+                                <p>
+                                    Indian singer
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="plitem-right">
+                            <div>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="section-heading">
+                    <h1>Recently Played</h1>
+                    <div class="view-all-button">
+                        View All
+                    </div>
+                </div>
+                <div class="recently-played">
+                    <div class="playlist-item">
+                        <div class=plitem-left>
+                            <div>
+                                1.
+                            </div>
+
+                            <div>
+                                <img src="media/Similar-Artist/AR-Rehman.jpg">
+                            </div>
+                            <div>
+                                <h4>
+                                    A R Rehman
+                                </h4>
+                                <p>
+                                    Indian singer
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="plitem-right">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="playlist-item">
+                        <div class=plitem-left>
+                            <div>
+                                2.
+                            </div>
+
+                            <div>
+                                <img src="media/Similar-Artist/AR-Rehman.jpg">
+                            </div>
+                            <div>
+                                <h4>
+                                    A R Rehman
+                                </h4>
+                                <p>
+                                    Indian singer
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="plitem-right">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="playlist-item">
+                        <div class=plitem-left>
+                            <div>
+                                3.
+                            </div>
+
+                            <div>
+                                <img src="media/Similar-Artist/AR-Rehman.jpg">
+                            </div>
+                            <div>
+                                <h4>
+                                    A R Rehman
+                                </h4>
+                                <p>
+                                    Indian singer
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="plitem-right">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="playlist-item">
+                        <div class=plitem-left>
+                            <div>
+                                4.
+                            </div>
+
+                            <div>
+                                <img src="media/Similar-Artist/AR-Rehman.jpg">
+                            </div>
+                            <div>
+                                <h4>
+                                    A R Rehman
+                                </h4>
+                                <p>
+                                    Indian singer
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="plitem-right">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <!-- this is footer similar to index page -->
+    <footer>
+        <div class="playing-song-bar">
+            <div class="song-info">
+                <div class="fsong-image">
+                    <img src="media/latest-english/e1.jpg">
+                </div>
+                <!-- song name and author -->
+                <div class="fsong-desc">
+                    <div>
+                        In the End
+                    </div>
+                    <div>
+                        Linkin Park
+                    </div>
+
+
+                </div>
+                <div>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-ban"></i>
+                </div>
+
+
+            </div>
+            <div class="song-control-bar">
+                <div class="music-player">
+                    <div class="controls">
+                        <div><i class="fas fa-random"></i></div>
+                        <div><i class="fas fa-step-backward"></i></div>
+                        <div><i class="fas fa-pause-circle"></i></div>
+                        <div><i class="fas fa-step-forward"></i></div>
+                        <div><i class="fas fa-redo"></i></div>
+                    </div>
+                    <!-- this is the slider -->
+                    <div id="slider">
+                        <!-- current time -->
+                        <div class="time">
+                            1:39
+                        </div>
+                        <div class="slidecontainer">
+                            <input type="range" min="0" max="100" value="30" class="slider" id="myRange">
+                        </div>
+                        <!-- total time -->
+                        <div class="time">
+                            4:44
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="song-extra-control">
+                <div>
+                    <i class="fas fa-list-ul"></i>
+                </div>
+                <div>
+                    <i class="fas fa-laptop"></i>
+                </div>
+
+                <div class="slidecontainer" style="width:30%;">
+                    <i class="fas fa-volume-up"></i>
+                    <input type="range" min="0" max="100" value="40" class="slider" id="myRange"
+                        style="margin-top:0px;">
+                </div>
+                <div>
+                    <i class="fas fa-expand-alt"></i>
+                </div>
+            </div>
+
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
