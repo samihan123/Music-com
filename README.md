@@ -1,38 +1,29 @@
 <h1 align="center">
   
-  <h1 align="center">Music . Com</h1>
+  <h1 align="center">Music Tube . Com</h1>
 </h1>
 
 
-In this project, I have developed a web application called Music.com with similar concepts of spotify, Amazon music, or any other music website.
+In this project, I have developed a static web application called Music.com with similar concepts of spotify, Amazon music, or any other music website.
 
-
-
-You view the screenShots of WebApp in ./media folder
 
 Below are few ScreenShots of the Webapp:
-![Alt Text](./media/Profile.png)
+![Alt Text](./ScreenShots/MTube.png)
+<br>
+![Alt Text](./ScreenShots/Playlist.png)
 
 ## Tech/framework used
 
 <b>Built with</b>
-- [NodeJS](https://nodejs.dev/)
-- [ExpressJs](https://expressjs.com/)
-- [MongoDB](https://www.mongodb.com/)
+- HTML
+- CSS
+- [FontAwesome](https://fontawesome.com/)
+- [BootStrap](https://getbootstrap.com/)
 
 ## Features
-- Used MVC architecture to structure a web application
-- Develop an end-to-end web application using the MEN stack
-- Use EJS template pages to present the view to the browser.
+- Used HTML5 and CSS to develope this web site.
+- Used bootStrap and Fontawesome for customization.
 
-
-
-## How to use?
-Steps to run the application:
-```
-npm install
-npm start
-```
 
 ## You can reach out 😊😊
 
@@ -47,5 +38,5 @@ Feel free to contact me about the problems. I will try to help as much as I can 
 
 ## Acknowledgments
 
-- Getting Better at NodeJs and ExpressJs
+- Getting Better at HTML and CSS.
 - Learning new stuffs
